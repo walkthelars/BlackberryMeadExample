@@ -1,0 +1,3 @@
+Create a new MonoGame DekstopGL project. Install the MonoGame.Extended NuGet package. Copy Game1.cs into the auto-generated Game1 class of the blank project.
+In the project, open Content/Content.mgcb. Right click on the left pane and add a new folder called "Fonts". Inside Fonts add a new folder called "Iris". Inside Fonts/Iris, add Iris3.json and Iris_texture.png. Select Iris3.json and select Build Action "Copy". 
+Next right click on empty space below Fonts and "Add Existing Item". Select UI.json, and set Build Action to copy. From the top pane select Build->Build and confirm that all is successful. Close out of Content.mgcb. Build project and run.
