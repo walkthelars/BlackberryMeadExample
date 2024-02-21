@@ -1,0 +1,52 @@
+{
+  "MainMenu": {
+    "Components": {
+      "ZoomLabel": {
+        "$type": "Label",
+        "Text": "Left zoom in, right zoom out.",
+        "HorizontalAlign": "Center",
+        "VerticalAlign": "Center",
+        "FontName": "Iris3",
+        "Dimensions": {
+          "Width": 200,
+          "Height": 50
+        }
+      },
+      "ZoomButtons": {
+        "$type": "ExtendoBox",
+        "Components": {
+          "ZoomButtonsGroup": {
+            "$type": "Group",
+            "Components": {
+              "ZoomInButton": {
+                "$type": "Button",
+                "Dimensions": {
+                  "Width": 30,
+                  "Height": 30
+                }
+              },
+              "ZoomOutButton": {
+                "$type": "Button",
+                "Dimensions": {
+                  "Width": 30,
+                  "Height": 30
+                },
+                "HorizontalOffset": 50
+              }
+            }
+          }
+        },
+        "Padding": {
+          "ZoomButtonsGroup": {
+            "Top": 0,
+            "Bottom": 0
+          }
+        },
+        "HorizontalAlign": "Center",
+        "VerticalAlign": "Center",
+        "VerticalOffset": 50
+      }
+    },
+    "MatchViewport": true
+  }
+}
